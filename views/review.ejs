@@ -1,0 +1,28 @@
+<%- include("partials/header")-%>
+
+<div class="container">
+  <form class="" action="/review" method="post">
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control"  name="name" >
+    </div>
+
+
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control"  name="email" >
+    </div>
+
+    <div class="form-group">
+      <label for="review">Feedback or Custom Request</label>
+  <textarea name="review" class="form-control" rows="8" cols="155"></textarea>
+<p>Thank you for your feedback.We will look into your request if any. </p>
+  <button type="submit" class="btn btn-primary" name="button">Submit </button><br>
+    </div>
+
+
+  </form>
+
+</div>

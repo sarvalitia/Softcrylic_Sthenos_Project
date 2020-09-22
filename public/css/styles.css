@@ -1,0 +1,332 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  line-height: 2;
+
+}
+
+
+
+.r{
+margin-top: 10%;
+}
+
+
+
+
+.navbar-brand{
+padding-left: 6%;
+font-size: 200%;
+letter-spacing: 10px;
+
+}
+
+.navbar{
+
+
+
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  background-color: #fc8210;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+    color:black;
+}
+
+
+
+
+
+.sec-1{
+  position: relative;
+  color: white;
+    background-color: black;
+padding-bottom: 15%;
+
+}
+
+.homep{
+font-family: 'Raleway', sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
+
+.homeimg{
+margin-top: 4%;
+margin-left: 37%;
+  width:30%;
+}
+
+.on{
+  top: 50%;
+  left: 12%;
+width: 80%;
+  position: absolute;
+}
+
+video{
+  background-color: #f6f6f6;
+margin-top: 9%;
+margin-left: 8%;
+}
+
+.exp1{
+  padding-top: 5%;
+  margin-left: 5%;
+}
+
+
+.test{
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+
+.dum2{
+margin-left: 50%;
+width: 2%;
+}
+
+
+
+
+.row{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 13%;
+}
+
+
+
+.donediv{
+  padding-bottom: 10%;
+}
+
+
+
+.happycentre{
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+
+.rug{
+  padding-top: 5%;
+padding-bottom: 4%;
+}
+
+
+.rugg{
+padding-top: 6%;
+padding-bottom: 6%;
+text-align: center;
+
+}
+
+.ruggp{
+margin-left: 46%;
+padding-bottom: 4%;
+
+}
+
+
+
+.pr {
+  padding: 6%;
+  width: 23rem;
+}
+
+.row1{
+  margin-left: 7%;
+}
+
+.cust{
+  color: orange;
+  padding-top: 6%;
+  text-align: center;
+
+}
+
+.why{
+  text-align: center;
+  padding-top: 7%;
+}
+
+
+.dname2{
+  padding-top: 5%;
+  margin-left: 16%;
+}
+
+
+hr{
+  color: white;
+}
+
+
+
+
+
+
+#about{
+  text-align: center;
+  margin-top: 13%;
+  padding-bottom: 5%;
+}
+
+.abtt{
+  color:orange;
+  padding-bottom: 4%;
+}
+
+
+.donet{
+  line-height: 2;
+  width: 70%;
+  padding-top: 10%;
+  margin-left: 16%;
+
+}
+
+.dname{
+margin-left: 16%;
+margin-top:  10%;
+
+}
+
+
+
+#products{
+  margin-top: 5%;
+  background-color: #fc8210;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
+.card-img-top{
+  width: 100%;
+}
+
+.ptitle{
+  text-align: center;
+color: white;
+}
+
+
+
+
+.pp{
+  padding-top: 5%;
+  margin-left: 5%;
+  text-align: center;
+  width:90%;
+  font-size: 1.3rem;
+}
+
+
+.p{
+margin-left: 20%;
+}
+
+.go{
+  margin-left: 16%;
+}
+
+.buyp{
+  margin-top: 13%;
+}
+
+
+
+
+.slide{
+  color: white;
+  padding-top: 7%;
+  padding-bottom: 10%;
+  width:70%;
+  margin-left: 1%;
+}
+
+
+.workppl{
+  color: white;
+  margin-right: 7%;
+  padding-top: 8%;
+}
+
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 60px;
+  width: 60px;
+  outline: white;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 27px;
+  color: #fc8210;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 27px;
+  color: #fc8210;
+}
+
+
+
+.cu{
+  margin-left: 13%;
+}
+
+
+
+.c{
+  text-align: center;
+}
+
+#workers{
+  color: white;
+  background-color: black;
+padding-left: 27%;
+}
+
+
+
+#contact{
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  background-color: #fc8210;
+}
+
+.cancelbox{
+  margin-top: 10%;
+  margin-left: 15%;
+  padding-bottom: 10%;
+width: 70%;
+}
+
+.pc{
+  padding-top: 3%;
+}

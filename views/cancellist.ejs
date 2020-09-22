@@ -1,0 +1,20 @@
+<%- include("partials/header")-%>
+
+<%for(var i=0;i<deleteditems.length;i++){%>
+<div class="rugg">
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <p>email: <%=deleteditems[i].email%> </p>
+        <p>phone:  <%=deleteditems[i].phone%></p>
+        <p>product Name: <%=deleteditems[i].productName%></p>
+        <p>Canceled their order</p>
+  </div>
+    </div>
+
+</div>
+
+</div>
+
+
+    <%}%>

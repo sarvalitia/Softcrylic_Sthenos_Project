@@ -1,0 +1,61 @@
+<%- include("partials/header")-%>
+
+<div class="container mt-5">
+  <h1>Give the following details to confirm your order</h1>
+  <h5>STHENOS team will get in touch through Email or instagram as soon as possible</h5>
+<p> only COD(Cash On Delivery)</p>
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="card">
+        <div class="card-body">
+
+          <form action="/buy" method="POST">
+            <h1><%=item%></h1>
+
+            <div class="form-group">
+              <label for="q">Quantity*</label>
+              <input type="text" class="form-control"  name="Quantity" placeholder="number or kiloes of  <%=item%>">
+            </div>
+
+    
+            <div class="form-group">
+              <label for="name">Name*</label>
+              <input type="text" class="form-control"  name="name" placeholder="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email*</label>
+              <input type="email" class="form-control" name="username" placeholder="Email ">
+            </div>
+
+            <div class="form-group">
+              <label for="address">Home Address</label>
+              <input type="text" class="form-control" name="address" placeholder="address">
+            </div>
+            <div class="form-group">
+              <label for="insta">Instagram-Id*</label>
+              <input type="text" class="form-control" name="insta" placeholder="Instagram-Id">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone number* </label>
+              <input type="text" class="form-control" name="phone" placeholder="Phone no.(*)">
+            </div>
+
+            <button type="submit" class="btn btn-dark">Confirm Order and Checkout</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+<div class="buyp col-lg-6">
+
+      <p>Without these details we cannot contact you.So kindly enter the required information</p>
+
+
+
+</div>
+</div>
+</div>

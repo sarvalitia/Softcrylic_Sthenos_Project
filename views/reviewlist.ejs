@@ -1,0 +1,21 @@
+<%- include("partials/header")-%>
+
+<%for(var i=0;i<reviews.length;i++){%>
+<div class="rugg">
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <p>Name: <%=reviews[i].name%> </p>
+        <p>email:  <%=reviews[i].email%></p>
+    <p>Review or custom request:  <%=reviews[i].request%></p>
+    <button type="submit" class="btn btn-dark"><a href="/deletereview/<%=reviews[i]._id%>">Read and Delete</a></button>
+  </div>
+    </div>
+
+</div>
+
+</div>
+
+
+    <%}%>
+<p class="ruggp">NO other reviews</p>

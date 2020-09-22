@@ -1,0 +1,19 @@
+<%- include("partials/header")-%>
+<%for(var i=0;i<orders.length;i++){%>
+
+  <div class="card">
+    <div class="card-body">
+      <p>Name:  <%=orders[i].name%></p>
+  <p>Email:  <%=orders[i].email%></p>
+  <p>Address:  <%=orders[i].address%></p>
+  <p>Insta:  <%=orders[i].instagramid%></p>
+  <p>Phone:  <%=orders[i].ph%></p>
+  <p>Product:  <%=orders[i].products%></p>
+  <p>quantity:  <%=orders[i].quantity%></p>
+  <p>cost:<%=orders[i].totalCost%></p>
+<button type="submit" class="btn btn-dark"><a href="/delete/<%=orders[i]._id%>">Delete if transcation is done</a></button>
+</div>
+  </div>
+
+<%}%>
+    <p>NO OTHER ORDERS!</p>
